@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # 安装依赖
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 # 在容器内运行应用
 CMD ["python", "app.py"]
