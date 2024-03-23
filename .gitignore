@@ -38,5 +38,6 @@ weixian/
 !*.yaml
 !*.ttf
 !*.cu
+!Dockerfile
 
 /.idea/

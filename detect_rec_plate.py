@@ -162,6 +162,7 @@ def draw_result(orgimg, dict_list):
 
 
 def main_handler(event, context):
+    resultSet.clear()
     Dicto = event.get("dictionary")
     parser = argparse.ArgumentParser()
     parser.add_argument('--detect_model', nargs='+', type=str, default='weights/yolov7-lite-s.pt',
@@ -230,6 +231,7 @@ def main_handler(event, context):
             video.release()
             cv2.destroyAllWindows()
     print(f"检测共计耗时： {time.time() - time_b} s")
+    return resultSet
 
 if __name__ == '__main__':
     path = "imgs"
