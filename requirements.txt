@@ -1,7 +1,7 @@
 # pip install -r requirements.txt
 
 # base ----------------------------------------
-matplotlib>=3.2.2
+#matplotlib>=3.2.2
 numpy>=1.18.5
 opencv-python>=4.1.2
 Pillow
@@ -30,7 +30,7 @@ thop  # FLOPS computation
 #pycocotools>=2.0  # COCO mAP
 #pycocotools-windows
 pycocotools
-PyQt5
+#PyQt5
 
 Flask==2.1.1
 werkzeug==2.2.2
