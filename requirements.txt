@@ -26,8 +26,8 @@ requests==2.31.0
 seaborn==0.13.2
 six==1.16.0
 sympy==1.12
-torch==2.2.1
-torchvision==0.17.1
+torch @ https://download.pytorch.org/whl/cpu/torch-2.2.1%2Bcpu-cp39-cp39-linux_x86_64.whl#sha256=2fb340b289760040a16a77a6d70b8a48961abba1822e6f58705c97c80befa03e
+torchvision @ https://download.pytorch.org/whl/cpu/torchvision-0.17.1%2Bcpu-cp39-cp39-linux_x86_64.whl#sha256=4832b4e143b331629397b3a4593ba0aed5e584be6ecefb88d396f25ede229147
 tqdm==4.66.2
 typing_extensions==4.10.0
 tzdata==2024.1
